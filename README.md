@@ -35,7 +35,7 @@ A **real-time voice-controlled spell casting system** that transforms spoken Har
 1. **Clone the repository**
    ```bash
    git clone https://github.com/turazashvili/Hogwards-Legacy-Cast-with-Voice
-   cd hogwarts-spell-caster
+   cd Hogwards-Legacy-Cast-with-Voice
    ```
 
 2. **Create virtual environment** (recommended)
@@ -333,12 +333,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🌟 Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=YOUR_USERNAME/hogwarts-spell-caster&type=Date)](https://star-history.com/#YOUR_USERNAME/hogwarts-spell-caster&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=turazashvili/Hogwards-Legacy-Cast-with-Voice&type=Date)](https://star-history.com/#turazashvili/Hogwards-Legacy-Cast-with-Voice&Date)
 
 ---
 
-**Made with ⚡ by [Your Name]**
+**Made with ⚡ by [turazashvili](https://github.com/turazashvili)**
 
 *"It's LeviOsa, not LeviosA!" - Hermione Granger*
 
-🔗 **Links**: [Demo Video](YOUR_YOUTUBE_LINK) | [Dev.to Article](YOUR_DEVTO_LINK) | [AssemblyAI Challenge](https://dev.to/challenges/assemblyai-2025-07-16) 
+🔗 **Links**: [Demo Video](https://youtu.be/RRjN_gkcMDg?si=0LejjrSE1rSjr_xe) | [GitHub Repository](https://github.com/turazashvili/Hogwards-Legacy-Cast-with-Voice) | [AssemblyAI Challenge](https://dev.to/challenges/assemblyai-2025-07-16) 
