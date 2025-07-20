@@ -18,7 +18,7 @@ A **real-time voice-controlled spell casting system** that transforms spoken Har
 
 ## 🎬 Demo
 
-[![Hogwarts Spell Caster Demo](https://img.youtube.com/vi/YOUR_VIDEO_ID/maxresdefault.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+[Hogwarts Spell Caster Demo](https://youtu.be/RRjN_gkcMDg?si=0LejjrSE1rSjr_xe)
 
 *Click to watch the magic in action!*
 
@@ -34,7 +34,7 @@ A **real-time voice-controlled spell casting system** that transforms spoken Har
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/hogwarts-spell-caster.git
+   git clone https://github.com/turazashvili/Hogwards-Legacy-Cast-with-Voice
    cd hogwarts-spell-caster
    ```
 
@@ -59,17 +59,34 @@ A **real-time voice-controlled spell casting system** that transforms spoken Har
    - Get your free API key from the dashboard
    - Copy the key for the next step
 
-5. **Set up environment variable**
-   ```bash
-   # Windows (Command Prompt)
-   set ASSEMBLYAI_API_KEY=your_api_key_here
-   
-   # Windows (PowerShell)
-   $env:ASSEMBLYAI_API_KEY="your_api_key_here"
-   
-   # macOS/Linux
-   export ASSEMBLYAI_API_KEY=your_api_key_here
-   ```
+ 5. **Set up environment variables**
+    
+    **Option A: Using .env file (Recommended)**
+    ```bash
+    # Copy the example environment file
+    cp .env.example .env
+    
+    # Edit .env and replace 'your_api_key_here' with your actual AssemblyAI API key
+    # Then load it before running:
+    
+    # Windows (PowerShell)
+    Get-Content .env | ForEach-Object { if($_ -match '^([^=]+)=(.*)$'){ [Environment]::SetEnvironmentVariable($matches[1], $matches[2]) } }
+    
+    # macOS/Linux (bash/zsh)
+    export $(cat .env | xargs)
+    ```
+    
+    **Option B: Set directly**
+    ```bash
+    # Windows (Command Prompt)
+    set ASSEMBLYAI_API_KEY=your_api_key_here
+    
+    # Windows (PowerShell)
+    $env:ASSEMBLYAI_API_KEY="your_api_key_here"
+    
+    # macOS/Linux
+    export ASSEMBLYAI_API_KEY=your_api_key_here
+    ```
 
 6. **Run the spell caster**
    ```bash

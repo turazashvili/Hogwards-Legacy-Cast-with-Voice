@@ -1,7 +1,7 @@
 # Hogwarts Spell Caster Dependencies
 
 # AssemblyAI Universal-Streaming API with microphone extras
-assemblyai[extras]>=0.42.0
+assemblyai[extras]
 
 # Keyboard automation for spell casting
-keyboard>=0.13.5 
+keyboard
